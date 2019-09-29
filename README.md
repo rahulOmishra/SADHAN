@@ -1,5 +1,5 @@
 # SADHAN
-Rahul Mishra, Vinay Setty["SADHAN: Hierarchical Attention Networks to Learn Latent Aspect Embeddings for Fake News Detection"](https://dl.acm.org/citation.cfm?doid=3341981.33442296). ICTIR 2019.  
+Rahul Mishra, Vinay Setty ["SADHAN: Hierarchical Attention Networks to Learn Latent Aspect Embeddings for Fake News Detection"](https://dl.acm.org/citation.cfm?doid=3341981.33442296). ICTIR 2019.  
 
 ## Dataset
 Datasets of Politifact, Snopes and Fever can be downloaded from these links:
@@ -13,6 +13,7 @@ relevant parts of the web documents.
 2. Fever: http://fever.ai/data.html
 ```We use random sampling method expalained in the original paper(https://www.aclweb.org/anthology/N18-1074). We use LDA(https://radimrehurek.com/gensim/models/ldamodel.html) to generate subjects/topics for the claims.
 ```
+
 ## Parameters/hyper-parameters and other settings
 
 #Embeddings:
