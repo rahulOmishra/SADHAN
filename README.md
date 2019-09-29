@@ -36,6 +36,25 @@ weights.
 
 - **keep-prob for dropout:** 0.3
 
-
-
     
+## References
+Please cite the following papers:
+~~~~
+@inproceedings{Mishra:2019:SHA:3341981.3344229,
+ author = {Mishra, Rahul and Setty, Vinay},
+ title = {SADHAN: Hierarchical Attention Networks to Learn Latent Aspect Embeddings for Fake News Detection},
+ booktitle = {Proceedings of the 2019 ACM SIGIR International Conference on Theory of Information Retrieval},
+ series = {ICTIR '19},
+ year = {2019},
+ isbn = {978-1-4503-6881-0},
+ location = {Santa Clara, CA, USA},
+ pages = {197--204},
+ numpages = {8},
+ url = {http://doi.acm.org/10.1145/3341981.3344229},
+ doi = {10.1145/3341981.3344229},
+ acmid = {3344229},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {fake news detection, hierarchical attention, latent aspect embeddings},
+} 
+~~~~
