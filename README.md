@@ -5,13 +5,15 @@ Rahul Mishra, Vinay Setty ["SADHAN: Hierarchical Attention Networks to Learn Lat
 Datasets of Politifact, Snopes and Fever can be downloaded from these links:
 
 1. Politifact and Snopes: https://www.mpi-inf.mpg.de/dl-cred-analysis/
-```We use only top 30 results retrived from the web. We extract relevant snippets of text from
-the web documents using cosine similarity(>0.3) to include only highly
-relevant parts of the web documents.
+```
+We use only top 30 results retrived from the web. We extract relevant snippets of text from the web documents using cosine similarity(>0.3) to include only highly relevant parts of the web documents.
+
 ```
 
 2. Fever: http://fever.ai/data.html
-```We use random sampling method expalained in the original paper(https://www.aclweb.org/anthology/N18-1074). We use LDA(https://radimrehurek.com/gensim/models/ldamodel.html) to generate subjects/topics for the claims.
+```
+We use random sampling method expalained in the original paper(https://www.aclweb.org/anthology/N18-1074). We use LDA(https://radimrehurek.com/gensim/models/ldamodel.html) to generate subjects/topics for the claims.
+
 ```
 
 ## Parameters/hyper-parameters and other settings
