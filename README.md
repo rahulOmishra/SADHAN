@@ -38,7 +38,7 @@ weights.
 
     
 ## References
-Please cite the following papers:
+Please cite the following paper:
 ~~~~
 @inproceedings{Mishra:2019:SHA:3341981.3344229,
  author = {Mishra, Rahul and Setty, Vinay},
