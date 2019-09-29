@@ -18,23 +18,23 @@ We use random sampling method expalained in the original paper(https://www.aclwe
 
 ## Parameters/hyper-parameters and other settings
 
-#### Embeddings:
+- **Embeddings:**
 1. Word embeddings: GloVe word embeddings of 100 dimensions trained on 6 billion words (https://nlp.stanford.edu/projects/glove/)
   
 2. Aspect embeddings: Each aspect embedding is of 100 dimension and initialized with uniformly random
 weights.
 
-#### Loss function: Softmax cross entropy with logits
+- **Loss function:** Softmax cross entropy with logits
 
-#### learning rate: 0.001
+- **learning rate:** 0.001
 
-#### Number of hidden units in BiLSTM: 200
+- **Number of hidden units in BiLSTM:** 200
 
-#### Max sentence length: 100
+- **Max sentence length:** 100
 
-#### Max number of sentences:50
+- **Max number of sentences:** 50
 
-#### keep-prob for dropout: 0.3
+- **keep-prob for dropout:** 0.3
 
 
 
