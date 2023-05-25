@@ -225,7 +225,7 @@ with tf.Graph().as_default():
                                                        dataset.label[i], dataset.sen_len[i], dataset.doc_len[i], name)
                     acc += correct_num
                     rmse += mse
-            acc = acc * datasetfrac(dataset)
+            
             rmse = np.sqrt(rmse * datasetfrac(dataset))
             return acc, rmse
 
